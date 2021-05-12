@@ -32,8 +32,7 @@ export class Login extends React.Component {
             alert('Please enter correct Login details');
         }
     }
-    validate() {
-        let input = this.state.input;
+     validate() {
         let errors = {};
         let isValid = true;
 
