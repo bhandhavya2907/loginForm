@@ -1,6 +1,7 @@
 import React from 'react';
-import loginImg from "../../login.svg"
+import logo from "./logo.svg"
 //import logo from "../../logo.svg"
+
 
 export class Login extends React.Component {
 
@@ -24,9 +25,9 @@ export class Login extends React.Component {
         event.preventDefault();  //prevnets deafult action of element from happening
 
         if (this.validate()) {
-
-            alert('Form is submitted');
-        }
+                this.props.history.push('/Home')
+            }
+        
 
         else{
             alert('Please enter correct Login details');
@@ -62,7 +63,7 @@ export class Login extends React.Component {
                 <div className="header"> <h3>Login Page</h3></div><br></br><br></br>
                 <div className="content">
                     <div className="image">
-                        <img src={loginImg} alt="Beautiful" /></div><br></br>
+                        <img src={logo} alt="Beautiful" /></div><br></br>
                     <div>
                         <br></br><br></br>
                         <form onSubmit={this.handleSubmit}>
@@ -94,3 +95,4 @@ export class Login extends React.Component {
     }
 }
 
+export default Login;

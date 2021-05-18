@@ -1,13 +1,15 @@
 
 body{
   background-color:rgb(222, 227, 230);
-  box-sizing: border-box;
+  box-sizing:content-box;
+  border-radius: inherit;
 
 }
 
 .header{
   font-style: oblique;
-  font-family:fantasy
+  font-family:fantasy;
+  margin-left: 150px;
 
 }
 
@@ -28,14 +30,15 @@ body{
       .image {
         width: 21em;}
         img {
-          margin-right: 10px;
-          justify-content: center;
+          margin-bottom:4px;
+          margin-left: 145px;
           position:relative;
           width: 40%;
           height: 150%;
         }
         label {
           margin-right : 10px;
+          margin-left: 30px;
      }
           input[type=text] {
             font: size 15px;
@@ -47,12 +50,11 @@ body{
             background-color: rgb(255, 249, 249);
             color: rgb(10, 10, 10);
             font-family: Arial, Helvetica, sans-serif;
-             }
+           
+                       }
             
-            
-        
             input[type=password] {
-              margin-left : 5px;
+              margin-left : 20px;
               width: 40%;
               padding: 10px 20px;
               box-sizing:content-box;
@@ -76,7 +78,7 @@ body{
   /* cursor: pointer; */
   border-radius: 5px;
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: 22px;
+  margin-left: 150px;
    }
 
 
@@ -86,3 +88,75 @@ body{
  color: red;
  font-size: 16px;
    }
+
+  .bg_iamge{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 25px;
+font-style:oblique;
+background-color:lightpink;
+ 
+
+  }
+   .signUp{
+    
+      background-color:rgb(222, 227, 230);
+      box-sizing:content-box;
+      border-radius: inherit;
+      font-style: oblique;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      margin-left: 150px;}
+
+   label{
+
+    margin-right : 10px;
+    margin-left: 30px;
+}
+
+   
+input[type=text] {
+  font: size 15px;
+  width: 40%;
+  padding: 10px 20px;
+  box-sizing:content-box  ;
+  border: none;
+  border-radius: 15px;
+  background-color:white;
+  color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+   }
+  
+  
+
+  input[type=password] {
+    margin-left : 30px;
+    width: 40%;
+    padding: 10px 20px;
+    box-sizing:content-box;
+    border: none;
+    border-radius: 15px;
+    background-color:white;
+    color: rgb(10, 10, 10);
+    font-family: Arial, Helvetica, sans-serif;}
+
+
+ .btn{
+
+  background-color:lightblue;
+  
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display:inline-block;
+  margin: 4px 2px;
+  /* cursor: pointer; */
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 300px;
+   
+ }
+
+
+
+   
